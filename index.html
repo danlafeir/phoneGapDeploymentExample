@@ -1,5 +1,19 @@
 <html>
-  <head></head>
-  <body>Hello World</body>
+  <head>
+  </head>
+  <body>
+    <h2>Hello World</h2>
+    <a href="page2.html">going to next page</a>
+    <br>
+    <form action="page2.html" method="GET">
+      <button type="submit">Form Submission</button>
+    </form>
+    <button onclick="clickMe()">Click Me for fancy js nav</button>
+      <script>
+      function clickMe() {
+        window.location = "page2.html";
+      }
+    </script>
+  </body>
 </html>
 
